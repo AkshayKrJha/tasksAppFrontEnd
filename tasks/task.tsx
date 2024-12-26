@@ -54,7 +54,12 @@ export default function Task({
       <Typography variant="h5" color="#fff">
         {dueDate}
       </Typography>
-      <Typography variant="h6" color="#fff">
+      <Typography
+        variant="h6"
+        color="#fff"
+        sx={{ wordBreak: "break-word" }}
+        whiteSpace={"pre-line"}
+      >
         {description}
       </Typography>
       <Box
